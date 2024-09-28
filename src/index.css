@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.Main {
+    background: linear-gradient(180deg, #AFDCB1 31.2%, #82C4DA 63.57%);
+}
+
+.Miaaaflex::-webkit-scrollbar {
+    display: none;
+    /* Hide the scrollbar for WebKit browsers */
+}
+
+.Miaaaflex {
+    overflow: auto;
+    /* Ensure scrolling works without the scrollbar */
+}
